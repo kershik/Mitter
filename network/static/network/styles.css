@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+}
+
+.post-div {
+    margin: 0px 10px;
+    border: 1px solid lightgrey;
+    padding: 5px 15px;
+    display: block;
+    overflow: auto;
+}
+
+.post-user {
+    display: inline-block;
+}
+
+.post-timestamp {
+    display: inline-block;
+    color: lightgray;
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+#user-home {
+    font-weight: bold;
+}
+
+#post-form {
+    margin: 0px 10px;
+    border: 1px solid lightgray;
+    border-bottom: 5px solid lightgray; 
+    display: block;
+    overflow: auto;
+}
+
+.content {
+    border: none;
+    outline: none;
+    padding: 15px;
+    width: 100%;
+    resize: none;
+}
+
+#submit-tweet {
+    display: block;
+    background-color: #00acee;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    margin: 5px;
+    float: right;
+}
+
+#user-name {
+    margin: 10px 15px;
+    display: inline-block;
+}
+
+#follow-button {
+    background-color: #00acee;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+
+.follow {
+    margin: 10px 0px 10px 15px;
+    color: gray;
+}
+
+#edit-button {
+    color: gray;
+}
+
+#save-button {
+    color:#00acee;
+    border-radius: 20px;
+}
+
+.like-button {
+    background-color: white;
+    border: none;
+    color: rgb(194, 14, 14);
+    padding: 0px;
+}
+
+.like-button:focus {
+    outline: none;
+}
+
+#nav-bar {
+    margin: 10px;
+}

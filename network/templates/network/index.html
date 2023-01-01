@@ -1,0 +1,30 @@
+{% extends "network/layout.html" %}
+{% load static %}
+
+{% block body %}
+
+    <div id="form-view">
+        {% if user.is_authenticated %}
+        <form id="post-form">
+            <textarea id="post-content" placeholder="What's happening?"></textarea>
+            <input type="submit" id="submit-tweet" class="btn btn-primary" value="Tweet">
+        </form>
+        {% endif %}
+    </div>
+
+
+    <div id="posts-view"></div>
+
+    <div id="user-view">
+        <h3 id="user-name"></h3>
+        <button id="follow-button"></button>
+        <p>
+            <strong><text id="followers" class="follow"></text> Followers</strong>
+            <strong><text id="following" class="follow"></text> Following</strong>
+        </p>
+    </div>
+{% endblock %}
+
+{% block script %}
+    <script src="{% static 'network/index.js' %}"></script>
+{% endblock %}

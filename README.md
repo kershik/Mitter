@@ -26,3 +26,10 @@ python manage.py makemigrations network
 ```
 python manage.py migrate
 ```
+
+4. Run server
+
+```
+python manage.py runserver
+```
+
